@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tooltip {
+  pointer-events: none; /* Prevent the tooltip from blocking mouse events */
+}
